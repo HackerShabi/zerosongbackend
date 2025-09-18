@@ -137,7 +137,7 @@ def run_spleeter_separation(input_file: Path, output_dir: Path) -> Dict[str, Pat
             detail=f"Audio separation failed: {str(e)}"
         )
 
-@app.post("/separate")
+@app.post("/separate-audio")
 async def separate_audio(file: UploadFile = File(...)):
     """Separate vocals and instrumental from uploaded audio file"""
     

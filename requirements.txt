@@ -5,10 +5,18 @@ python-multipart==0.0.6
 
 # Audio processing
 spleeter==2.3.2
+pydantic<2
 tensorflow==2.13.0
 librosa==0.10.1
 soundfile==0.12.1
 numpy==1.24.3
+scipy==1.11.4
+pandas==2.1.4
+norbert==0.2.1
+musdb==0.4.2
+museval==0.4.1
+stempeg==0.2.3
+ffmpeg-python==0.2.0
 
 # Additional utilities
 pydub==0.25.1
