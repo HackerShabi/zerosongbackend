@@ -1,0 +1,23 @@
+# FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Audio processing
+spleeter==2.3.2
+tensorflow==2.13.0
+librosa==0.10.1
+soundfile==0.12.1
+numpy==1.24.3
+
+# Additional utilities
+pydub==0.25.1
+requests==2.31.0
+
+# For better performance on CPU
+tensorflow-cpu==2.13.0
+
+# System dependencies (may need to be installed separately)
+# ffmpeg - required for audio processing
+# Note: On Render, ffmpeg should be available by default
+# For local development on Windows, install ffmpeg separately
