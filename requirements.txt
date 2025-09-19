@@ -10,7 +10,6 @@ tensorflow==2.8.4
 soundfile==0.12.1
 numpy==1.24.3
 scipy==1.11.4
-pandas==2.1.4
 norbert==0.2.1
 musdb==0.4.2
 museval==0.4.1
