@@ -6,9 +6,7 @@ python-multipart==0.0.6
 # Audio processing
 spleeter==2.1.0
 pydantic<2
-tensorflow==2.8.4
 soundfile==0.12.1
-numpy==1.24.3
 scipy==1.11.4
 norbert==0.2.1
 musdb==0.4.2
@@ -19,9 +17,6 @@ ffmpeg-python==0.2.0
 # Additional utilities
 pydub==0.25.1
 requests==2.31.0
-
-# For better performance on CPU
-tensorflow-cpu==2.13.0
 
 # System dependencies (may need to be installed separately)
 # ffmpeg - required for audio processing
